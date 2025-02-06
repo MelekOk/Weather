@@ -2,7 +2,7 @@ Hava Durumu Uygulaması
 
 Bu proje, OpenWeatherMap API'sini kullanarak bir şehir için güncel hava durumu bilgilerini gösteren basit bir web uygulamasıdır.
 
-Kullanılan Teknolojiler
+------Kullanılan Teknolojiler------
 
 HTML
 
@@ -12,7 +12,7 @@ JavaScript
 
 OpenWeatherMap API
 
-Özellikler
+------Özellikler------
 
 Kullanıcı, bir şehir adı girerek hava durumu verilerini görebilir.
 
@@ -20,7 +20,7 @@ API'den alınan sıcaklık, şehir adı ve hava durumu açıklaması ekrana yazd
 
 Geçersiz şehir adı girildiğinde hata mesajı gösterilir.
 
-Kurulum ve Kullanım
+------Kurulum ve Kullanım------
 
 Projeyi Çalıştırma:
 
@@ -36,7 +36,7 @@ script içinde apiKey değişkenini kendi anahtarınızla değiştirin:
 
 const apiKey = 'YOUR_API_KEY_HERE';
 
-Kullanım Adımları
+------Kullanım Adımları------
 
 Şehir adını giriş alanına yazın.
 
@@ -46,9 +46,12 @@ Kullanım Adımları
 
 Yanlış veya geçersiz şehir girildiğinde hata mesajı görüntülenecektir.
 
-Örnek Kullanım
+------Örnek Kullanım------
 
 Şehir adı olarak İstanbul girildiğinde aşağıdaki gibi bir çıktı alınabilir:
+
 Şehir: İstanbul
+
 Sıcaklık: 20°C
+
 Hava Durumu: clear sky
